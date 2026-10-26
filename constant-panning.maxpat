@@ -3,7 +3,7 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
+            "minor": 2,
             "revision": 0,
             "architecture": "x64",
             "modernui": 1
@@ -11,6 +11,27 @@
         "classnamespace": "box",
         "rect": [ 455.0, 205.0, 640.0, 480.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-15",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 299.0, 117.0, 202.0, 20.0 ],
+                    "text": "Maps input range to an output range"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-12",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 220.0, 188.5, 218.0, 33.0 ],
+                    "text": "[sqrt] object calculates the square root of the incoming numbers"
+                }
+            },
             {
                 "box": {
                     "id": "obj-6",
@@ -129,7 +150,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 203.0, 59.0, 150.0, 20.0 ],
+                    "patching_rect": [ 203.0, 59.0, 75.0, 20.0 ],
                     "text": "Pan position"
                 }
             },

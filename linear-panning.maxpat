@@ -3,14 +3,24 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
+            "minor": 2,
             "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 262.0, 182.0, 388.0, 426.0 ],
+        "rect": [ 262.0, 182.0, 507.0, 426.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-15",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 286.0, 101.0, 202.0, 20.0 ],
+                    "text": "Maps input range to an output range"
+                }
+            },
             {
                 "box": {
                     "id": "obj-4",
@@ -103,7 +113,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 188.0, 44.0, 150.0, 20.0 ],
+                    "patching_rect": [ 188.0, 44.0, 75.0, 20.0 ],
                     "text": "Pan position"
                 }
             },
