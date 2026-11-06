@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 2,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
@@ -18,7 +18,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 174.0, 4.0, 77.0, 22.0 ],
+                    "patching_rect": [ 272.0, 21.0, 77.0, 22.0 ],
                     "text": "loadmess 64"
                 }
             },
@@ -331,6 +331,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-19", 0 ],
+                    "midpoints": [ 281.5, 47.5, 204.5, 47.5 ],
                     "source": [ "obj-1", 0 ]
                 }
             },

@@ -4,13 +4,24 @@
         "appversion": {
             "major": 9,
             "minor": 2,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
         "rect": [ 262.0, 182.0, 507.0, 426.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 272.0, 35.0, 77.0, 22.0 ],
+                    "text": "loadmess 64"
+                }
+            },
             {
                 "box": {
                     "id": "obj-15",
@@ -219,6 +230,13 @@
             }
         ],
         "lines": [
+            {
+                "patchline": {
+                    "destination": [ "obj-9", 0 ],
+                    "midpoints": [ 281.5, 62.0, 194.5, 62.0 ],
+                    "source": [ "obj-1", 0 ]
+                }
+            },
             {
                 "patchline": {
                     "destination": [ "obj-11", 0 ],
